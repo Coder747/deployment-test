@@ -62,7 +62,7 @@ jobs:
       #           else
       #             return 1
       #           fi
-      smoke_test:
+    smoke_test:
         docker:
           - image: alpine:latest
         steps:
