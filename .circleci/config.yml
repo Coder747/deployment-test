@@ -1,5 +1,4 @@
 version: 2.1
-gather_facts: no
 # Use a package of configuration called an orb.
 orbs:
     # Choose either one of the orbs below
