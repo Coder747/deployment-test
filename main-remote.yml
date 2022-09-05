@@ -1,5 +1,5 @@
 ---
-# Exercise for setting up a web server in an EC test
+# Exercise for setting up a web server in an EC test2
 - name: Exercise for setting up a web server in an EC   
   # Use the public IP if the VM is already created
   hosts: all
