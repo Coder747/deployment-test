@@ -1,6 +1,11 @@
 ---
-- name: Exercise #1
-  hosts: localhost
-
+# Remote Control Using Ansible
+- name: Remote Control Using Ansible
+  hosts: ubuntu
+  user: ubuntu
+  become: true
+  become_method: sudo
+  become_user: root
   roles:
-   - print
+   - prepare
+   - apache
